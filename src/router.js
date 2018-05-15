@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+const Accessible =()=> ({component: import('./views/Accessible.vue')})
+const Animation =()=> ({component: import('./views/Animation')})
 
 Vue.use(Router)
 
@@ -9,13 +9,11 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      component: Accessible
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About
+      path: '/animation',
+      component: Animation
     }
   ]
 })
