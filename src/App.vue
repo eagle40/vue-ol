@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Accessible</router-link> |
-      <router-link to="/animation">Animation</router-link>
+      <router-link to="/animation">Animation</router-link> |
+        <router-link to="/xyz">XYZ</router-link>
     </div>
     <router-view/>
   </div>
