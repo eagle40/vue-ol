@@ -18,8 +18,8 @@
   import View from 'ol/View.js';
   import {easeIn, easeOut} from 'ol/easing';
   import TileLayer from 'ol/layer/Tile.js';
-  import {fromLonLat} from 'ol/proj';
-  import OSM from 'ol/source/OSM';
+  import {fromLonLat} from 'ol/proj.js';
+  import OSM from 'ol/source/OSM.js';
 
   export default {
     name: 'Animation',
