@@ -4,6 +4,7 @@
           <router-link to="/">Accessible</router-link> |
           <router-link to="/animation">Animation</router-link> |
           <router-link to="/arcgis-image">ArcgisImage</router-link> |
+          <router-link to="/arcgis-tiled">ArcgisTiled</router-link> |
           <router-link to="/xyz">XYZ</router-link>
       </div>
     <router-view/>
